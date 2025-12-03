@@ -1,4 +1,5 @@
-        // Sistema di punteggio
+let eventRankings = [];
+// Sistema di punteggio
         const pointsSystem = {
             1: 10000,
             2: 7500,
@@ -268,4 +269,5 @@
 
         // Inizializza
         loadData();
+
         updateDisplay();
